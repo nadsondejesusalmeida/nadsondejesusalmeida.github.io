@@ -1,4 +1,3 @@
-<h1>Nadson de Jesus Almeida</h1>
 Sou atualmente um estudante que programa através do celular que sempre busca melhorar.
 
 <h2>ℹ️ Informações</h2>
