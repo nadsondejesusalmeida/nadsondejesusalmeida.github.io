@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	border: border-box;
+}
+
+body {
+	padding: 10px 15px 0;
+	font-family: 'Robots', Sans-Serif;
+	height: 100dvh;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+p {
+	font-size: 1.25rem;
+	text-align: justify;
+	text-indent: 15px;
+}
