@@ -12,7 +12,6 @@
 }
 
 body {
-	padding: 10px 15px 0;
 	font-family: 'Robots', Sans-Serif;
 	height: 100dvh;
 	background-color: var(--background-color);
@@ -26,16 +25,21 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 10px;
-	padding: 10px 5px;
+	margin: 0 15px;
+	padding: 10px;
 	font-variant: small-caps;
 	border-bottom: 1px solid #757575;
 }
 
 p {
+	padding: 10px;
 	font-size: 1rem;
 	text-align: justify;
 	text-indent: 15px;
+}
+
+.resources-lists {
+	padding: 10px;
 }
 
 img {
