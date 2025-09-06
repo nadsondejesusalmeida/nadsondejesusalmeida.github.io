@@ -10,8 +10,8 @@
 
 body.escuro {
 	--text: #FFFFFF;
-	--main-background: #333333;
-	--card-background: #777777;
+	--main-background: #777777;
+	--card-background: #333333;
 	--highlight: #C41E1E;
 	--reverse-hightlight: #EE5C52;
 }
