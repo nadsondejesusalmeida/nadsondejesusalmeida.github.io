@@ -1,66 +1,206 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 :root {
-	--background-color: #000000;
-	--text-color: #FFFFFF;
+	--text: #000000;
+	--main-background: #F5F5F5;
+	--card-background: #FFFFFF;
+	--highlight: #FF0000;
+	--reverse-hightlight: #BE2C22;
 }
 
-* {
+body.escuro {
+	--text: #FFFFFF;
+	--main-background: #333333;
+	--card-background: #777777;
+	--highlight: #C41E1E;
+	--reverse-hightlight: #EE5C52;
+}
+
+*  {
 	margin: 0;
 	padding: 0;
-	border: border-box;
+	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Robots', Sans-Serif;
+	width: 100vw;
 	height: 100dvh;
-	background-color: var(--background-color);
-	color: var(--text-color);
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--main-background);
+	color: var(--text);
 }
 
-h1 {
+header {
 	padding: 10px;
-	font-size: 2rem;
-	text-align: center;
+	width: 100%;
+	height: 40px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: var(--highlight);
+	color: var(--text);
+	z-index: 100;
 }
 
-h2 {
-	margin: 0 15px;
-	padding: 10px;
-	font-variant: small-caps;
-	border-bottom: 1px solid #757575;
+header ul {
+	list-style: none;
+	display: flex;
+	gap: 10px;
 }
 
-p {
-	padding: 10px;
-	font-size: 1rem;
-	text-align: justify;
-	text-indent: 15px;
-}
-
-.resources-lists {
-	padding: 10px;
-}
-
-img {
-	width: 50px;
-}
-
-ul {
-	margin-top: 20px;
-	list-style-position: inside;
-}
-
-ul li {
-	font-size: 20px;
-}
-
-a {
-	font-weight: bold;
+header nav a {
+	padding: 12px 15px;
 	text-decoration: none;
-	color: var(--text-color);
+	color: var(--text);
+	border-radius: 5px;
+	transition: background-color 0.5s, color 0.5s;
 }
 
-a:hover {
-	text-decoration: underline;
+header nav a:hover {
+	background-color: var(--reverse-hightlight);
+	color: var(--highlight);
+}
+
+main {
+	display: grid;
+	grid-template-columns: auto 90vw auto;
+	gap: 20px;
+}
+
+#ficha,
+#detalhes {
+	grid-column: 2;
+}
+
+#ficha {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: var(--card-background);
+	border-radius: 8px;
+}
+
+#ficha img {
+	margin: auto;
+	width: 200px;
+	display: block;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#ficha h1 {
+	margin: 15px 0;
+	font-size: 1.5em;
+	text-align: left;
+	color: var(--highlight);
+}
+
+#nivel-de-conhecimento {
+	margin-bottom: 10px;
+	font-size: 1em;
+	font-weight: bolder;
+	text-align: center;
+	color: #cfcd4b;
+}
+
+#social {
+	margin-top: 15px;
+	width: 100%;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+#social a {
+	text-decoration: none;
+	color: var(--highlight);
+}
+
+article {
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: var(--card-background);
+	border-radius: 8px;
+}
+
+article h2 {
+	margin-bottom: 20px;
+	color: var(--highlight);
+}
+
+#skill-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+
+#skill-container .item {
+	color: var(--main-color);
+}
+
+#skill-container .info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#skill-container .nome {
+	font-weight: bold;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+
+#skill-container .porcent {
+	font-weight: bold;
+}
+
+#skill-container .barra {
+	margin-top: 5px;
+	width: 100%;
+	height: 8px;
+	background-color: var(--main-background);
+	border-radius: 4px;
+}
+
+#skill-container .barra .progresso {
+	height: 100%;
+	background-color: var(--main-color);
+	border-radius: 4px;
+}
+
+#projeto-container {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 20px;
+}
+
+#projeto-container .projeto {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: var(--main-background);
+	border-left: 5px solid var(--highlight);
+	border-radius: 8px;
+}
+
+#projeto-container .foto {
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#projeto-container summary {
+	font-weight: bold;
+	color: var(--reverse-hightlight);
 }
