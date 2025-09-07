@@ -176,6 +176,21 @@ article h2 {
 	border-radius: 4px;
 }
 
+#tool-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+
+#tool-container .item {
+	font-weight: bold;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	color: var(--main-color);
+}
+
 #projeto-container {
 	display: flex;
 	flex-direction: column-reverse;
@@ -222,6 +237,10 @@ article h2 {
 	}
 	
 	#skill-container {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#tool-container {
 		grid-template-columns: 1fr 1fr;
 	}
 	
