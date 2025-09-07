@@ -1,4 +1,4 @@
-# Nadson de Jesus Almeida
+<h1><a href="https://nadsondejesusalmeida.github.io">Nadson de Jesus Almeida</a></h1>
 Sou atualmente um estudante que programa através do celular que sempre busca melhorar.
 
 ## ℹ️ Informações
@@ -27,5 +27,4 @@ Sou atualmente um estudante que programa através do celular que sempre busca me
 	<img src="assets/images/git.svg" alt="Logotipo de Git" width="50px" />
 	<img src="assets/images/npm.svg" alt="Logotipo de npm" width="50px" />
 	<img src="assets/images/notesnook-logo-circle.png" alt="Logotipo de Notesnook" width="50px" />
-	<img src="assets/images/photoshop-express-logo-circle.png" alt="Logotipo de Photoshop Express" width="50px" />
 </div>
