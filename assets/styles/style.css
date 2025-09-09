@@ -183,12 +183,64 @@ article h2 {
 }
 
 #tool-container .item {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: border-color 0.3s ease;
+}
+
+#tool-container .item summary {
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--main-color);
+	border-bottom: 1px solid transparent;
+	cursor: pointer;
+	transition: border-bottom 0.3s ease;
+}
+
+#tool-container .item summary .title {
 	font-weight: bold;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	gap: 10px;
-	color: var(--main-color);
+}
+
+#tool-container .item summary .triangle {
+	border-top: 5px solid var(--main-color);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	transition: transform 0.3s ease;
+}
+
+#tool-container .item .content-box {
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 5px;
+}
+
+#tool-container .item .content {
+	color: var(--text);
+}
+
+#tool-container .item[open] {
+	border-color: var(--main-color);
+}
+
+#tool-container .item[open] summary {
+	border-bottom-color: var(--main-color);
+}
+
+#tool-container .item[open] summary .triangle {
+	transform: rotate(180deg);
 }
 
 #projeto-container {
