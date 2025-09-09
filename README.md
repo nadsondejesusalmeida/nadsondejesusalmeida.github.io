@@ -22,7 +22,7 @@ Sou atualmente um estudante que programa através do celular que sempre busca me
 	<img src="assets/images/android.svg" alt="Logotipo de Android" width="50px" />
 	<img src="assets/images/acode-logo-circle.png" alt="Logotipo de Acode" width="50px" />
 	<img src="assets/images/heliboard-logo-circle.png" alt="Logotipo de Heliboard" width="50px" />
-	<img src="assets/images/opera.svg" alt="Logotipo de Opera" width="50px" />
+	<img src="assets/images/firefox.svg" alt="Logotipo de Firefox" width="50px" />
 	<img src="assets/images/termux-logo-circle-50x50px.png" alt="Logotipo de Termux" width="50px" />
 	<img src="assets/images/git.svg" alt="Logotipo de Git" width="50px" />
 	<img src="assets/images/npm.svg" alt="Logotipo de npm" width="50px" />
