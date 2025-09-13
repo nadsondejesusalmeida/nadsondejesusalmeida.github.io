@@ -1,5 +1,5 @@
 <h1><a href="https://nadsondejesusalmeida.github.io">Nadson de Jesus Almeida</a></h1>
-Sou atualmente um estudante que programa através do celular que sempre busca melhorar.
+<p>Este repositório contémo meu portfólio. Criado e desenvolvido para mostrar minhas informações profissonais.</p>
 
 ## ℹ️ Informações
 <div>
@@ -28,3 +28,11 @@ Sou atualmente um estudante que programa através do celular que sempre busca me
 	<img src="assets/images/npm.svg" alt="Logotipo de npm" width="50px" />
 	<img src="assets/images/notesnook-logo-circle.png" alt="Logotipo de Notesnook" width="50px" />
 </div>
+
+## Outros repositórios
+
+<ul>
+	<li><a href="https://github.com/nadsondejesusalmeida/projeto-android">Projeto Android</a></li>
+	<li><a href="https://github.com/nadsondejesusalmeida/projeto-cordel">Projeto Cordel</a></li>
+	<li><a href="https://github.com/nadsondejesusalmeida/projeto-login">Projeto Login</a></li>
+</ul>
