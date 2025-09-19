@@ -1,0 +1,20 @@
+{
+	"name": "Portfólio de Nadson de Jesus Almeida",
+	"short_name": "Portfólio de Nadson",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#FFFFFF",
+	"theme_color": "#FF0000",
+	"icons": [
+		{
+			"src": "https://nadsondejesusalmeida.github.io/assets/images/favicons/favicon-192x192.ico",
+			"sizes": "192x192",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "https://nadsondejesusalmeida.github.io/assets/images/favicons/favicon-512x512.ico",
+			"sizes": "512x512",
+			"type": "image/x-icon"
+		}
+	]
+}
