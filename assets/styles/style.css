@@ -1,21 +1,5 @@
 @charset 'UTF-8';
 
-:root {
-	--text: #000000;
-	--main-background: #F5F5F5;
-	--card-background: #FFFFFF;
-	--highlight: #FF0000;
-	--reverse-hightlight: #BE2C22;
-}
-
-body.escuro {
-	--text: #FFFFFF;
-	--main-background: #777777;
-	--card-background: #333333;
-	--highlight: #C41E1E;
-	--reverse-hightlight: #EE5C52;
-}
-
 *  {
 	margin: 0;
 	padding: 0;
