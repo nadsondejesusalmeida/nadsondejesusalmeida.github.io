@@ -2,8 +2,8 @@ const themeColorButton = document.getElementById('theme-color-button');
 const themeSystem = localStorage.getItem('themeSystem') || 'light';
 
 function setThemeSystem(theme) {
-	const lightThemeIcon = `<ion-icon name="sunny" class="theme-color-icon"></ion-icon>`;
-	const darkThemeIcon = `<ion-icon name="moon" class="theme-color-icon"></ion-icon>`;
+	const lightThemeIcon = `<ion-icon name="sunny" id="theme-color-icon"></ion-icon>`;
+	const darkThemeIcon = `<ion-icon name="moon" id="theme-color-icon"></ion-icon>`;
 	
 	document.documentElement.setAttribute('data-theme', theme);
 	
