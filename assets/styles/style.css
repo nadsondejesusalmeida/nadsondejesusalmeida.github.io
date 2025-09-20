@@ -38,6 +38,9 @@ header ul {
 header nav a {
 	padding: 12px 15px;
 	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: var(--text);
 	border-radius: 5px;
 	transition: background-color 0.5s, color 0.5s;
