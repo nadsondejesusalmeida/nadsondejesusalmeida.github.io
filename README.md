@@ -1,5 +1,6 @@
 <h1><a href="https://nadsondejesusalmeida.github.io">Nadson de Jesus Almeida</a></h1>
-<p>Este repositório contém o meu portfólio. Criado e desenvolvido para mostrar minhas informações profissonais.</p>
+
+Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mostrar minhas informações profissonais.
 
 ## ℹ️ Informações
 <div>
