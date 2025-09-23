@@ -197,6 +197,10 @@ article h2 {
 	gap: 10px;
 }
 
+#tool-container .item summary .icon {
+	border-radius: 50%;
+}
+
 #tool-container .item summary .triangle {
 	border-top: 5px solid var(--main-color);
 	border-right: 5px solid transparent;

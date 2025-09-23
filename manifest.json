@@ -1,6 +1,6 @@
 {
-	"name": "Portfólio de Nadson de Jesus Almeida",
-	"short_name": "Portfólio de Nadson",
+	"name": "Portfólio",
+	"short_name": "",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#FFFFFF",
