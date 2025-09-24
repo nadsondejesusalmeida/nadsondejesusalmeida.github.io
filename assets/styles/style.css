@@ -69,9 +69,8 @@ main {
 	border-radius: 8px;
 }
 
-#ficha img {
+#ficha .foto {
 	margin: auto;
-	width: 200px;
 	display: block;
 	aspect-ratio: 1/1;
 	object-fit: cover;
@@ -306,7 +305,7 @@ article h2 {
 		max-height: 200px;
 	}
 	
-	#projeto-container a img {
+	#projeto-container .foto {
 		width: 100%;
 		height: 100%;
 		aspect-ratio: 1/1;
