@@ -51,6 +51,12 @@ header nav a:hover {
 	color: var(--highlight);
 }
 
+header nav .icons,
+article h2 .icons,
+#theme-color-icon {
+	font-display: swap;
+}
+
 main {
 	margin-top: 60px;
 	display: grid;
