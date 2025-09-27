@@ -12,22 +12,22 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 
 ## Linguagens &amp; Frameworks
 <div>
-	<img src="assets/images/html.svg" alt="Logotipo de HTML" width="50px" />
-	<img src="assets/images/css.svg" alt="Logotipo de CSS" width="50px" />
-	<img src="assets/images/js.svg" alt="Logotipo de JS" width="50px" />
-	<img src="assets/images/node-js.svg" alt="Logotipo de Node.js" width="50px" />
+	<img src="assets/images/svg/html.svg" alt="Logotipo de HTML" width="50px" />
+	<img src="assets/images/svg/css.svg" alt="Logotipo de CSS" width="50px" />
+	<img src="assets/images/svg/js.svg" alt="Logotipo de JS" width="50px" />
+	<img src="assets/images/svg/node-js.svg" alt="Logotipo de Node.js" width="50px" />
 </div>
 
 ## Ferramentas que eu utilizo diariamente
 <div>
-	<img src="assets/images/android.svg" alt="Logotipo de Android" width="50px" />
-	<img src="assets/images/acode-logo-circle.png" alt="Logotipo de Acode" width="50px" />
-	<img src="assets/images/heliboard-logo-circle.png" alt="Logotipo de Heliboard" width="50px" />
-	<img src="assets/images/firefox.svg" alt="Logotipo de Firefox" width="50px" />
-	<img src="assets/images/termux-logo-circle-50x50px.png" alt="Logotipo de Termux" width="50px" />
-	<img src="assets/images/git.svg" alt="Logotipo de Git" width="50px" />
-	<img src="assets/images/npm.svg" alt="Logotipo de npm" width="50px" />
-	<img src="assets/images/notesnook-logo-circle.png" alt="Logotipo de Notesnook" width="50px" />
+	<img src="assets/images/svg/android.svg" alt="Logotipo de Android" width="50px" />
+	<img src="assets/images/png/acode-logo-50x50px.png" alt="Logotipo de Acode" width="50px" style="border-radius: 50%;" />
+	<img src="assets/images/png/heliboard-logo-50x50px.png" alt="Logotipo de Heliboard" width="50px" style="border-radius: 50%;" />
+	<img src="assets/images/svg/firefox.svg" alt="Logotipo de Firefox" width="50px" />
+	<img src="assets/images/svg/termux-logo.svg" alt="Logotipo de Termux" width="50px" style="border-radius: 50%;" />
+	<img src="assets/images/svg/git.svg" alt="Logotipo de Git" width="50px" />
+	<img src="assets/images/svg/npm.svg" alt="Logotipo de npm" width="50px" />
+	<img src="assets/images/svg/notesnook-logo.svg" alt="Logotipo de Notesnook" width="50px" style="border-radius: 50%;" />
 </div>
 
 ## Outros repositórios
