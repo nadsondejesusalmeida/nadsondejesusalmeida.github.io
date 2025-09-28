@@ -7,14 +7,14 @@
 	"theme_color": "#000000",
 	"icons": [
 		{
-			"src": "assets/images/favicons/favicon-192x192.ico",
+			"src": "android-chrome-192x192.png",
 			"sizes": "192x192",
-			"type": "image/x-icon"
+			"type": "image/png"
 		},
 		{
-			"src": "assets/images/favicons/favicon-512x512.ico",
+			"src": "android-chrome-512x512.png",
 			"sizes": "512x512",
-			"type": "image/x-icon"
+			"type": "image/png"
 		}
 	]
 }
