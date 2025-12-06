@@ -20,7 +20,6 @@ header {
 	height: 40px;
 	position: fixed;
 	top: 0;
-	left: 0;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -269,19 +268,15 @@ article h2 {
 }
 
 @media screen and (min-width: 768px) {
-	header {
-		position: sticky;
-	}
-	
 	main {
-		margin-top: 20px;
+		margin-top: 60px;
 		grid-template-columns: auto 300px 1fr auto;
 	}
 	
 	#ficha {
 		height: fit-content;
 		position: sticky;
-		top: 40px;
+		top: 60px;
 		grid-column: 2 / 3;
 	}
 	
