@@ -15,9 +15,7 @@ body {
 }
 
 header {
-	padding: 10px;
 	width: 100%;
-	height: 40px;
 	position: fixed;
 	top: 0;
 	display: flex;
@@ -31,11 +29,15 @@ header {
 header ul {
 	list-style: none;
 	display: flex;
-	gap: 10px;
+}
+
+header ul li {
+	display: flex;
 }
 
 header nav a {
 	padding: 12px 15px;
+	height: 100%;
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
