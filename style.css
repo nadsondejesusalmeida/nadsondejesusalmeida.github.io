@@ -141,7 +141,7 @@ article h2 {
 	align-items: center;
 }
 
-#skill-container .nome {
+#skill-container .skill-name {
 	font-weight: bold;
 	display: flex;
 	justify-content: flex-start;
