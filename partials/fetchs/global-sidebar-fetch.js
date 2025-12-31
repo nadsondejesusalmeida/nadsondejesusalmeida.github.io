@@ -1,8 +1,24 @@
 const body = document.body;
 
 const websiteURL = 'https://nadsondejesusalmeida.github.io/';
+const globalSidebarURL = `${websiteURL}partials/global-sidebar/global-sidebar.html`;
 const openGlobalSidebarButtonURL = `${websiteURL}partials/buttons/open-global-sidebar-button.html`;
 const globalSidebarOverlayURL = `${websiteURL}partials/overlays/global-sidebar-overlay.html`;
+
+fetch(globalSidebarURL)
+	.then(response => response.text())
+	.then(data => {
+		const tempElement = document.createElement('div');
+		tempElement.innerHTML = data;
+		
+		while (tempElement.firstChild) {
+			if (body.children.length > 0) {
+				body.insertBefore(tempElement.firstChild, body.firstChild);
+			} else {
+				body.appendChild(tempElement.firstChild);
+			}
+		}
+	})
 
 fetch(openGlobalSidebarButtonURL)
 	.then(response => response.text())
