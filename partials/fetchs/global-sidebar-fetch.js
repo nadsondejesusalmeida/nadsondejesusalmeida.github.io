@@ -1,8 +1,8 @@
 const body = document.body;
 
 const websiteURL = 'https://nadsondejesusalmeida.github.io/';
-const openGlobalSidebarButtonURL = `${websiteURL}buttons/open-global-sidebar-button.html'`
-const globalSidebarOverlayURL = `${websiteURL}overlays/global-sidebar-overlay.html`;
+const openGlobalSidebarButtonURL = `${websiteURL}partials/buttons/open-global-sidebar-button.html'`
+const globalSidebarOverlayURL = `${websiteURL}partials/overlays/global-sidebar-overlay.html`;
 
 fetch(openGlobalSidebarButtonURL)
 	.then(response => response.text())
