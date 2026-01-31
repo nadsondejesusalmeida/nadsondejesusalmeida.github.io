@@ -2,14 +2,33 @@
 
 :root {
 	/* Novo */
+	/* Cor de texto */
 	--primary-text-color: #000000;
 	
+	/* Cores de fundo */
 	--primary-background-color: #FFFFFF;
 	--secondary-background-color: #F5F5F5;
 	
+	/* Cor de destaque */
 	--primary-accent-color: #FF0000;
 	
+	/* Cor ao passar o cursor */
 	--primary-hover-button-color: #BE2C22;
+	
+	/* Família de fontes */
+	--primary-font-family: Arial, Helvetica, sans-serif;
+	
+	/* Cores do sistema operacional Android */
+	--android-primary-color: #C5EBD6;
+	--android-secondary-color: #83E1AD;
+	--android-tertiary-color: #3DDC84;
+	--android-quaternary-color: #2FA866;
+	--android-quinary-color: #1A5C37;
+	--android-scenario-color: #063D1E;
+	
+	/* Família de fontes do sistema operacional Android */
+	--android-secondary-font-family: 'Bebas Neue', cursive;
+	--android-primary-font-family: 'Android', cursive;
 	
 	/* Antigo */
 	--text: #000000;
@@ -19,15 +38,19 @@
 	--reverse-hightlight: #BE2C22;
 }
 
-[data-theme="dark"] {
+[data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
 	/* Novo */
+	/* Cor de texto */
 	--primary-text-color: #FFFFFF;
 	
+	/* Cores de fundo */
 	--primary-background-color: #000000;
 	--secondary-background-color: #777777;
 	
+	/* Cor de destaque */
 	--primary-accent-color: #C41E1E;
 	
+	/* Cor ao passar o cursor */
 	--primary-hover-button-color: #EE5C52;
 	
 	/* Antigo */
