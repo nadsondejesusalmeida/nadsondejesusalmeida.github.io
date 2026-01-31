@@ -1,6 +1,17 @@
 @charset 'UTF-8';
 
 :root {
+	/* Novo */
+	--primary-text-color: #000000;
+	
+	--primary-background-color: #FFFFFF;
+	--secondary-background-color: #F5F5F5;
+	
+	--primary-accent-color: #FF0000;
+	
+	--primary-hover-button-color: #BE2C22;
+	
+	/* Antigo */
 	--text: #000000;
 	--main-background: #F5F5F5;
 	--card-background: #FFFFFF;
@@ -9,6 +20,17 @@
 }
 
 [data-theme="dark"] {
+	/* Novo */
+	--primary-text-color: #FFFFFF;
+	
+	--primary-background-color: #000000;
+	--secondary-background-color: #777777;
+	
+	--primary-accent-color: #C41E1E;
+	
+	--primary-hover-button-color: #EE5C52;
+	
+	/* Antigo */
 	--text: #FFFFFF;
 	--main-background: #777777;
 	--card-background: #333333;
