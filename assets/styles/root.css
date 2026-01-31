@@ -1,5 +1,4 @@
 :root {
-	/* Novo */
 	/* Cor de texto */
 	--primary-text-color: #000000;
 	
@@ -33,7 +32,6 @@
 }
 
 [data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
-	/* Novo */
 	/* Cor de texto */
 	--primary-text-color: #FFFFFF;
 	
