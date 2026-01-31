@@ -1,5 +1,3 @@
-@charset 'UTF-8';
-
 :root {
 	/* Novo */
 	/* Cor de texto */
@@ -15,6 +13,7 @@
 	/* Cor ao passar o cursor */
 	--primary-hover-button-color: #BE2C22;
 	
+	/* Cores do controle deslizante */
 	--range-progress-color: #FF0000;
 	--trick-color: #757575;
 	
@@ -31,13 +30,6 @@
 	--android-quaternary-color: #2FA866;
 	--android-quinary-color: #1A5C37;
 	--android-scenario-color: #063D1E;
-	
-	/* Antigo */
-	--text: #000000;
-	--main-background: #F5F5F5;
-	--card-background: #FFFFFF;
-	--highlight: #FF0000;
-	--reverse-hightlight: #BE2C22;
 }
 
 [data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
@@ -55,13 +47,7 @@
 	/* Cor ao passar o cursor */
 	--primary-hover-button-color: #EE5C52;
 	
+	/* Cores do controle deslizante */
 	--range-progress-color: #CA0030;
 	--trick-color: #A0A0A0;
-	
-	/* Antigo */
-	--text: #FFFFFF;
-	--main-background: #777777;
-	--card-background: #333333;
-	--highlight: #C41E1E;
-	--reverse-hightlight: #EE5C52;
 }
