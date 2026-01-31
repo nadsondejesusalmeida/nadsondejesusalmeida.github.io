@@ -9,6 +9,10 @@
 	/* Cor de destaque */
 	--primary-accent-color: #FF0000;
 	
+	/* Cor de borda */
+	--primary-transparent-border-color: rgba(0, 0, 0, 0.3);
+	--secondary-transparent-border-color: rgba(0, 0, 0, 0.18);
+	
 	/* Cor ao passar o cursor */
 	--primary-hover-button-color: #BE2C22;
 	
@@ -41,6 +45,10 @@
 	
 	/* Cor de destaque */
 	--primary-accent-color: #C41E1E;
+	
+	/* Cor de borda */
+	--primary-transparent-border-color: rgba(255, 255, 255, 0.3);
+	--secondary-transparent-border-color: rgba(255, 255, 255, 0.18);
 	
 	/* Cor ao passar o cursor */
 	--primary-hover-button-color: #EE5C52;
