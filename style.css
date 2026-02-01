@@ -49,7 +49,7 @@ header nav a {
 
 header nav a:hover {
 	background-color: var(--primary-hover-button-color);
-	color: var(--primary-accent-color);
+	color: var(--primary-background-color);
 }
 
 header nav .icons,
@@ -97,7 +97,7 @@ main {
 	font-size: 1em;
 	font-weight: bolder;
 	text-align: center;
-	color: #cfcd4b;
+	color: #CFCD4B;
 }
 
 #social {
@@ -159,7 +159,7 @@ article h2 {
 	margin-top: 5px;
 	width: 100%;
 	height: 8px;
-	background-color: var(--secondary-background-color);
+	background-color: var(--trick-color);
 	border-radius: 4px;
 }
 

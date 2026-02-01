@@ -4,16 +4,19 @@
 	
 	/* Cores de fundo */
 	--primary-background-color: #FFFFFF;
-	--secondary-background-color: #F5F5F5;
+	--secondary-background-color: #EFEFEF;
 	
 	/* Cor de destaque */
 	--primary-accent-color: #FF0000;
 	
-	/* Cor de borda */
+	/* Cor de borda transparente */
 	--primary-transparent-border-color: rgba(0, 0, 0, 0.3);
 	--secondary-transparent-border-color: rgba(0, 0, 0, 0.18);
 	
 	/* Cor ao passar o cursor */
+	--primary-hover-color: #DFDFDF;
+	
+	/* Cor do botão ao passar o cursor */
 	--primary-hover-button-color: #BE2C22;
 	
 	/* Cores do controle deslizante */
@@ -46,11 +49,14 @@
 	/* Cor de destaque */
 	--primary-accent-color: #C41E1E;
 	
-	/* Cor de borda */
+	/* Cor de borda transparente */
 	--primary-transparent-border-color: rgba(255, 255, 255, 0.3);
 	--secondary-transparent-border-color: rgba(255, 255, 255, 0.18);
 	
 	/* Cor ao passar o cursor */
+	--primary-hover-color: #343434;
+	
+	/* Cor do botão ao passar o cursor */
 	--primary-hover-button-color: #EE5C52;
 	
 	/* Cores do controle deslizante */
