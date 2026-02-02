@@ -1,6 +1,7 @@
 :root {
 	/* Cor de texto */
 	--primary-text-color: #000000;
+	--secondary-text-color: #808080;
 	
 	/* Cores de fundo */
 	--primary-background-color: #FFFFFF;
@@ -41,6 +42,7 @@
 [data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
 	/* Cor de texto */
 	--primary-text-color: #FFFFFF;
+	--secondary-text-color: #505050;
 	
 	/* Cores de fundo */
 	--primary-background-color: #000000;
