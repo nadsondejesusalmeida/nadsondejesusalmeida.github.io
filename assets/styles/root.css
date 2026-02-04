@@ -7,8 +7,10 @@
 	--primary-background-color: #FFFFFF;
 	--secondary-background-color: #EFEFEF;
 	
-	/* Cor de destaque */
+	/* Cores de destaque */
 	--primary-accent-color: #FF0000;
+	--secondary-accent-color: #FFF900;
+	--tertiary-accent-color: #000000;
 	
 	/* Cor de borda transparente */
 	--primary-transparent-border-color: rgba(0, 0, 0, 0.3);
@@ -42,14 +44,16 @@
 [data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
 	/* Cor de texto */
 	--primary-text-color: #FFFFFF;
-	--secondary-text-color: #505050;
+	--secondary-text-color: #808080;
 	
 	/* Cores de fundo */
 	--primary-background-color: #000000;
 	--secondary-background-color: #777777;
 	
-	/* Cor de destaque */
+	/* Cores de destaque */
 	--primary-accent-color: #C41E1E;
+	--secondary-accent-color: #DFDB1C;
+	--tertiary-accent-color: #35352C;
 	
 	/* Cor de borda transparente */
 	--primary-transparent-border-color: rgba(255, 255, 255, 0.3);
