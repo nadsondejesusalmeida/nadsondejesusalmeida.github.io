@@ -31,9 +31,12 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 </div>
 
 ## Outros repositórios
-
-<ul>
-	<li><a href="https://github.com/nadsondejesusalmeida/projeto-android">Projeto Android</a></li>
-	<li><a href="https://github.com/nadsondejesusalmeida/projeto-cordel">Projeto Cordel</a></li>
-	<li><a href="https://github.com/nadsondejesusalmeida/projeto-login">Projeto Login</a></li>
-</ul>
+- [Projeto Android](https://github.com/nadsondejesusalmeida/projeto-android)
+- [Projeto Cordel](https://github.com/nadsondejesusalmeida/projeto-cordel)
+- [Projeto Login](https://github.com/nadsondejesusalmeida/projeto-login)
+- [Projeto RGBA](https://github.com/nadsondejesusalmeida/projeto-rgba)
+- [Projeto Calendário](https://github.com/nadsondejesusalmeida/projeto-calendario)
+- [Projeto Audiobook](https://github.com/nadsondejesusalmeida/projeto-audiobook)
+- [Projeto Apple Watch](https://github.com/nadsondejesusalmeida/projeto-apple-watch)
+- [Projeto Cardápio Digital](https://github.com/nadsondejesusalmeida/projeto-cardapio-digital)
+- [To-do List](https://github.com/nadsondejesusalmeida/to-do-list)

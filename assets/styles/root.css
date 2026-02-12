@@ -44,7 +44,6 @@
 [data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
 	/* Cor de texto */
 	--primary-text-color: #FFFFFF;
-	--secondary-text-color: #808080;
 	
 	/* Cores de fundo */
 	--primary-background-color: #000000;
