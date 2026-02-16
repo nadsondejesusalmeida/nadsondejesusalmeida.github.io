@@ -1,3 +1,5 @@
+import { renderProjectsCards } from './assets/scripts/ui.js';
+
 const navLinks = document.querySelectorAll('#navigation-bar ul li a.link');
 
 navLinks.forEach(link => {
@@ -15,3 +17,5 @@ navLinks.forEach(link => {
 		}
 	});
 });
+
+renderProjectsCards();
