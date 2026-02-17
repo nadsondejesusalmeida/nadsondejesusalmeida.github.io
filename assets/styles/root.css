@@ -8,9 +8,8 @@
 	--secondary-background-color: #EFEFEF;
 	
 	/* Cores de destaque */
-	--primary-accent-color: #FF0000;
-	--secondary-accent-color: #FFF900;
-	--tertiary-accent-color: #000000;
+	--primary-accent-color: #C41E1E;
+	--secondary-accent-color: #9EA023;
 	
 	/* Cor de borda transparente */
 	--primary-transparent-border-color: rgba(0, 0, 0, 0.3);
@@ -51,9 +50,8 @@
 	--secondary-background-color: #777777;
 	
 	/* Cores de destaque */
-	--primary-accent-color: #C41E1E;
-	--secondary-accent-color: #DFDB1C;
-	--tertiary-accent-color: #35352C;
+	--primary-accent-color: #FF0000;
+	--secondary-accent-color: #FFF900;
 	
 	/* Cor de borda transparente */
 	--primary-transparent-border-color: rgba(255, 255, 255, 0.3);
