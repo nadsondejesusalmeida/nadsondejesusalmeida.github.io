@@ -1,11 +1,12 @@
-import { renderProjectsCards } from './assets/scripts/ui.js';
+import { renderProjectCards } from '/assets/scripts/ui/index.js';
 
 const navLinks = document.querySelectorAll('#navigation-bar ul li a.link');
 
 navLinks.forEach(link => {
-	link.addEventListener('click', function(e) {
-		e.preventDefault();
-		const target = document.querySelector(this.getAttribute('href'));
+	link.addEventListener('click', event => {
+		event.preventDefault();
+		const targetLink = event.currentTarget;
+		const target = document.querySelector(targetLink.getAttribute('href'));
 		
 		if (target) {
 			const headerHeight = document.querySelector('header').offsetHeight;
@@ -18,4 +19,4 @@ navLinks.forEach(link => {
 	});
 });
 
-renderProjectsCards();
+renderProjectCards();

@@ -207,7 +207,7 @@ const listOfProjects = [
 	}
 ];
 
-export async function renderProjectsCards() {
+export async function renderProjectCards() {
 	try {
 		const projectContainer = document.querySelector('#project-container');
 		
