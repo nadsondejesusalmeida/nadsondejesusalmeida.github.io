@@ -26,7 +26,14 @@
 	--trick-color: #757575;
 	
 	/* Cores personalizadas para certas situações */
-	--active-button-border-blue-color: #0071E3;
+	--active-button-border-blue-color: #0071E3
+	
+	/* Cores para representar sucesso e erro */
+	--success-text-color: #3BD14B;
+	--success-background-color: #3BD14B;
+	
+	--error-text-color: #E83636;
+	--error-background-color: #E83636;
 	
 	/* Família de fontes */
 	--primary-font-family: Arial, Helvetica, sans-serif;
@@ -66,4 +73,11 @@
 	/* Cores do controle deslizante */
 	--range-progress-color: #CA0030;
 	--trick-color: #A0A0A0;
+	
+	/* Cores para representar sucesso e erro */
+	--success-text-color: #2D8A37;
+	--success-background-color: #2D8A37;
+	
+	--error-text-color: #9A1A1A;
+	--error-background-color: #9A1A1A;
 }
