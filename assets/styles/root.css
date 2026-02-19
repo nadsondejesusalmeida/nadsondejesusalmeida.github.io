@@ -21,9 +21,10 @@
 	/* Cor do botão ao passar o cursor */
 	--primary-hover-button-color: #BE2C22;
 	
-	/* Cores do controle deslizante */
-	--range-progress-color: #FF0000;
-	--trick-color: #757575;
+	/* Controle deslizante */
+	--active-track-color: #FF0000;
+	--inactive-track-color: #757575;
+	--slider-thumb-size: 15px;
 	
 	/* Cores personalizadas para certas situações */
 	--active-button-border-blue-color: #0071E3
@@ -71,8 +72,8 @@
 	--primary-hover-button-color: #EE5C52;
 	
 	/* Cores do controle deslizante */
-	--range-progress-color: #CA0030;
-	--trick-color: #A0A0A0;
+	--active-track-color: #CA0030;
+	--inactive-track-color: #A0A0A0;
 	
 	/* Cores para representar sucesso e erro */
 	--success-text-color: #2D8A37;
