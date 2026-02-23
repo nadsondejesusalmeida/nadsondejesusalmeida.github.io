@@ -257,6 +257,6 @@ export async function renderProjectCards() {
 			projectContainer.appendChild(projectElement);
 		});
 	} catch (error) {
-		console.error(error.message);
+		console.error(error);
 	}
 }
