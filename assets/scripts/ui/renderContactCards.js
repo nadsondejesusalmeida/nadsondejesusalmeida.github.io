@@ -15,19 +15,19 @@ export const renderContactCards = (contacts, local, message) => {
 		contactCard.classList.add('contact-card');
 		contactCard.dataset.id = id;
 		
-		const userBox = document.createElement('div');
-		const controlBox = document.createElement('div');
+		const userContainer = document.createElement('div');
+		const controlContainer = document.createElement('div');
 		
-		userBox.classList.add('user-box');
-		controlBox.classList.add('control-box');
+		userContainer.classList.add('user-container');
+		controlContainer.classList.add('control-container');
 		
-		const iconBox = document.createElement('div');
-		const detailsBox = document.createElement('div');
+		const iconContainer = document.createElement('div');
+		const detailsContainer = document.createElement('div');
 		
-		iconBox.textContent = firstLetterOfTheName;
-		iconBox.classList.add('icon-box');
-		iconBox.style.backgroundColor = color;
-		detailsBox.classList.add('details-box');
+		iconContainer.textContent = firstLetterOfTheName;
+		iconContainer.classList.add('icon-container');
+		iconContainer.style.backgroundColor = color;
+		detailsContainer.classList.add('details-container');
 		
 		const contactName = document.createElement('p');
 		const contactEmail = document.createElement('p');
@@ -38,14 +38,14 @@ export const renderContactCards = (contacts, local, message) => {
 		contactEmail.textContent = email;
 		contactEmail.classList.add('contact-email');
 		
-		detailsBox.appendChild(contactName);
-		detailsBox.appendChild(contactEmail);
+		detailsContainer.appendChild(contactName);
+		detailsContainer.appendChild(contactEmail);
 		
-		userBox.appendChild(iconBox);
-		userBox.appendChild(detailsBox)
+		userContainer.appendChild(iconContainer);
+		userContainer.appendChild(detailsContainer)
 		
-		contactCard.appendChild(userBox);
-		contactCard.appendChild(controlBox);
+		contactCard.appendChild(userContainer);
+		contactCard.appendChild(controlContainer);
 		
 		local.appendChild(contactCard);
 	});
