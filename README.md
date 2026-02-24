@@ -12,22 +12,46 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 
 ## Linguagens &amp; Frameworks
 <div>
-	<img src="assets/icons/dev/html.svg" alt="Logotipo de HTML" width="50px" />
-	<img src="assets/icons/dev/css.svg" alt="Logotipo de CSS" width="50px" />
-	<img src="assets/icons/dev/js.svg" alt="Logotipo de JS" width="50px" />
-	<img src="assets/icons/dev/node-js.svg" alt="Logotipo de Node.js" width="50px" />
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#html-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#css-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#javascript-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#nodejs-icon" />
+	</svg>
 </div>
 
 ## Ferramentas que eu utilizo diariamente
 <div>
-	<img src="assets/icons/services/android.svg" alt="Logotipo de Android" width="50px" />
-	<img src="assets/icons/dev/acode-logo-50x50px.png" alt="Logotipo de Acode" width="50px" style="border-radius: 50%;" />
-	<img src="assets/icons/services/heliboard-logo-50x50px.png" alt="Logotipo de Heliboard" width="50px" style="border-radius: 50%;" />
-	<img src="assets/icons/services/firefox.svg" alt="Logotipo de Firefox" width="50px" />
-	<img src="assets/icons/dev/termux.svg" alt="Logotipo de Termux" width="50px" style="border-radius: 50%;" />
-	<img src="assets/icons/dev/git.svg" alt="Logotipo de Git" width="50px" />
-	<img src="assets/icons/dev/npm.svg" alt="Logotipo de npm" width="50px" />
-	<img src="assets/icons/services/notesnook.svg" alt="Logotipo de Notesnook" width="50px" style="border-radius: 50%;" />
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#android-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#acode-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#heliboard-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#firefox-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#termux-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#git-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#npm-icon" />
+	</svg>
+	<svg width="50" height="50">
+		<use xlink:href="/assets/icons/sprite.svg#notesnook-icon" />
+	</svg>
 </div>
 
 ## Outros repositórios
