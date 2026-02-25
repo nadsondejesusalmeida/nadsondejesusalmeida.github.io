@@ -11,9 +11,9 @@
 	--primary-accent-color: #C41E1E;
 	--secondary-accent-color: #9EA023;
 	
-	/* Cor de borda transparente */
-	--primary-transparent-border-color: rgba(0, 0, 0, 0.3);
-	--secondary-transparent-border-color: rgba(0, 0, 0, 0.18);
+	/* Cores de transparência */
+	--primary-transparent-color: rgba(0, 0, 0, 0.3);
+	--secondary-transparent-color: rgba(0, 0, 0, 0.18);
 	
 	/* Cor ao passar o cursor */
 	--primary-hover-color: #DFDFDF;
@@ -29,7 +29,7 @@
 	/* Cores personalizadas para certas situações */
 	--active-button-border-blue-color: #0071E3
 	
-	/* Cores para representar sucesso e erro */
+	/* Cores de mensagens temporárias */
 	--success-text-color: #3BD14B;
 	--success-background-color: #3BD14B;
 	
@@ -38,6 +38,9 @@
 	
 	/* Família de fontes */
 	--primary-font-family: Arial, Helvetica, sans-serif;
+	
+	/* Transições */
+	--color-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 	
 	/* Cores do sistema operacional Android */
 	--android-primary-color: #C5EBD6;
@@ -61,9 +64,9 @@
 	--primary-accent-color: #FF0000;
 	--secondary-accent-color: #FFF900;
 	
-	/* Cor de borda transparente */
-	--primary-transparent-border-color: rgba(255, 255, 255, 0.3);
-	--secondary-transparent-border-color: rgba(255, 255, 255, 0.18);
+	/* Cores de transparência */
+	--primary-transparent-color: rgba(255, 255, 255, 0.3);
+	--secondary-transparent-color: rgba(255, 255, 255, 0.18);
 	
 	/* Cor ao passar o cursor */
 	--primary-hover-color: #343434;
