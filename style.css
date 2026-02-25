@@ -12,6 +12,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: var(--secondary-background-color);
 	color: var(--primary-text-color);
+	transition: var(--color-transition);
 }
 
 .icon {
@@ -23,12 +24,13 @@ header {
 	width: 100%;
 	position: fixed;
 	top: 0;
+	z-index: 100;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	background-color: var(--primary-accent-color);
 	color: var(--primary-text-color);
-	z-index: 100;
+	transition: var(--color-transition);
 }
 
 header ul {
@@ -49,7 +51,7 @@ header nav a {
 	align-items: center;
 	color: var(--primary-text-color);
 	border-radius: 5px;
-	transition: background-color 0.5s, color 0.5s;
+	transition: var(--color-transition);
 }
 
 header nav a:hover {
@@ -84,6 +86,7 @@ main {
 	padding: 20px;
 	background-color: var(--primary-background-color);
 	border-radius: 8px;
+	transition: var(--color-transition);
 }
 
 #record .photo {
@@ -98,7 +101,7 @@ main {
 #record h1 {
 	margin: 15px 0;
 	font-size: 1.5em;
-	text-align: left;
+	text-align: center;
 	color: var(--primary-accent-color);
 }
 
@@ -130,6 +133,7 @@ article {
 	padding: 20px;
 	background-color: var(--primary-background-color);
 	border-radius: 8px;
+	transition: var(--color-transition);
 }
 
 article h2 {
@@ -291,6 +295,7 @@ footer {
 	align-items: center;
 	background-color: var(--primary-background-color);
 	color: var(--primary-text-color);
+	transition: var(--color-transition);
 }
 
 @media screen and (min-width: 768px) {

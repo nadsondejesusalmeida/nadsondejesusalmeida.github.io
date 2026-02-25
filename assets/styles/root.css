@@ -6,6 +6,7 @@
 	/* Cores de fundo */
 	--primary-background-color: #FFFFFF;
 	--secondary-background-color: #EFEFEF;
+	--tertiary-background-color: #E6E9EE;
 	
 	/* Cores de destaque */
 	--primary-accent-color: #C41E1E;
@@ -58,7 +59,8 @@
 	
 	/* Cores de fundo */
 	--primary-background-color: #000000;
-	--secondary-background-color: #777777;
+	--secondary-background-color: #252525;
+	--tertiary-background-color: #141B23;
 	
 	/* Cores de destaque */
 	--primary-accent-color: #FF0000;
