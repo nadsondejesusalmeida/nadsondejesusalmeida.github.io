@@ -16,6 +16,9 @@
 	--primary-transparent-color: rgba(0, 0, 0, 0.3);
 	--secondary-transparent-color: rgba(0, 0, 0, 0.18);
 	
+	/* Cor da dica de ferramenta */
+	--tooltip-background-color: rgba(0, 0, 0, 0.8);
+	
 	/* Cor ao passar o cursor */
 	--primary-hover-color: #DFDFDF;
 	
@@ -69,6 +72,9 @@
 	/* Cores de transparência */
 	--primary-transparent-color: rgba(255, 255, 255, 0.3);
 	--secondary-transparent-color: rgba(255, 255, 255, 0.18);
+	
+	/* Cor da dica de ferramenta */
+	--tooltip-background-color: rgba(255, 255, 255, 0.8);
 	
 	/* Cor ao passar o cursor */
 	--primary-hover-color: #343434;

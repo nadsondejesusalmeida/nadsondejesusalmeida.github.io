@@ -113,6 +113,10 @@ main {
 	color: var(--secondary-accent-color);
 }
 
+#about-me {
+	text-align: justify;
+}
+
 #social {
 	margin-top: 15px;
 	width: 100%;
