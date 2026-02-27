@@ -63,4 +63,4 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 - [Projeto Audiobook](https://github.com/nadsondejesusalmeida/projeto-audiobook)
 - [Projeto Apple Watch](https://github.com/nadsondejesusalmeida/projeto-apple-watch)
 - [Projeto Cardápio Digital](https://github.com/nadsondejesusalmeida/projeto-cardapio-digital)
-- [To-do List](https://github.com/nadsondejesusalmeida/to-do-list)
+- [Lista de Tarefas](https://github.com/nadsondejesusalmeida/lista-de-tarefas)

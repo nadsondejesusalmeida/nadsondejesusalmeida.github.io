@@ -184,23 +184,23 @@ const listOfProjects = [
 	},
 	
 	{
-		title: "To-do List",
-		href: "/to-do-list/",
+		title: "Lista de Tarefas",
+		href: "/lista-de-tarefas/",
 		period: "2025",
 		description: "Crie sua própria lista de tarefas em que você pode marcar como completado, editar e deletar quando quiser. Os dados são salvos no navegador.",
 		learnMore: "Este projeto conta com um reforço na aprendizagem de salvamento de dados no navegador, além de me capacitar mais em criação de elementos através de JavaScript.",
 		color: "#DA373C",
 		images: {
 			avif: {
-				src: "/assets/images/avif/to-do-list.avif",
+				src: "/assets/images/avif/lista-de-tarefas.avif",
 				type: "image/avif"
 			},
 			webp: {
-				src: "/assets/images/webp/to-do-list.webp",
+				src: "/assets/images/webp/lista-de-tarefas.webp",
 				type: "image/webp"
 			},
 			jpg: {
-				src: "/assets/images/jpg/to-do-list.jpg",
+				src: "/assets/images/jpg/lista-de-tarefas.jpg",
 				type: "image/jpeg"
 			}
 		}
