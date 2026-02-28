@@ -14,3 +14,8 @@ body {
 	color: var(--primary-text-color);
 	transition: var(--color-transition);
 }
+
+
+.photo, .icon {
+	user-select: none;
+}

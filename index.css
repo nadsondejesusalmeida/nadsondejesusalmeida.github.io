@@ -44,7 +44,7 @@ header nav a:hover {
 
 header nav .icons,
 article h2 .icons,
-#theme-color-icon {
+#theme-button-color .icon {
 	font-display: swap;
 }
 
