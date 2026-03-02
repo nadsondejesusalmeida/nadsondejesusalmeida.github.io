@@ -1,14 +1,16 @@
 export const renderContactCards = (contacts, local, message) => {
 	message = message ? message : 'Clique em sincronizar para baixar seus contatos.';
-	local.innerHTML = '';
+	
+	if (!(local.textContent === '')) {
+		local.textContent = '';
+	}
 	
 	if (contacts.length === 0) {
-		local.textContent = message;
+		local.innerHTML = message;
 		return;
 	}
 	
-	contacts.forEach(contact => {
-		const { name, email, id, color } = contact;
+	contacts.forEach(({ name, email, id, color }) => {
 		const firstLetterOfTheName = name.charAt(0);
 		
 		const contactCard = document.createElement('div');
