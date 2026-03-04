@@ -1,5 +1,5 @@
 export const renderContactCards = (contacts, local, message) => {
-	message = message ? message : 'Clique em sincronizar para baixar seus contatos.';
+	message = message ? message : 'Clique em sincronizar para buscar contatos.';
 	
 	if (!(local.textContent === '')) {
 		local.textContent = '';
