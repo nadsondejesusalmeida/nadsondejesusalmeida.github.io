@@ -2,7 +2,7 @@ import {
 	renderProjectCards,
 	renderSkillCards,
 	renderToolCards
-} from '/assets/scripts/ui/index.js';
+} from '/assets/scripts/index.js';
 
 const navLinks = document.querySelectorAll('#navigation-bar ul li a.link');
 
