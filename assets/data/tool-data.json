@@ -1,0 +1,50 @@
+[
+	{
+		"title": "Android",
+		"icon": "/assets/icons/sprite.svg#android-icon",
+		"color": "#3DDB84",
+		"description": "O sistema operacional (OS) mais famoso dos smartphones. Uso um celular deste tipo para programar."
+	},
+	{
+		"title": "Acode",
+		"icon": "/assets/icons/sprite.svg#acode-icon",
+		"color": "#3399FE",
+		"description": "Um IDE mobile de código-aberto que uso para codificar."
+	},
+	{
+		"title": "Heliboard",
+		"icon": "/assets/icons/sprite.svg#heliboard-icon",
+		"color": "#B33D7A",
+		"description": "Um teclado virtual de código-aberto focado em privacidade, mas que também possui recursos muitos úteis que facilitam a codificação."
+	},
+	{
+		"title": "Termux",
+		"icon": "/assets/icons/sprite.svg#termux-icon",
+		"color": "var(--primary-text-color)",
+		"description": "Um emulador de terminal Linux livre e de código-aberto para Android."
+	},
+	{
+		"title": "Firefox",
+		"icon": "/assets/icons/sprite.svg#firefox-icon",
+		"color": "#C139EC",
+		"description": "Um navegador que eu utilizo para conseguir depurar e ter extensões pelo celular."
+	},
+	{
+		"title": "Git",
+		"icon": "/assets/icons/sprite.svg#git-icon",
+		"color": "#ED513A",
+		"description": "O sistema de controle de versão de código-aberto mais famoso de todos. Uso para gerenciar os repositórios locais e remotos."
+	},
+	{
+		"title": "NPM",
+		"icon": "/assets/icons/sprite.svg#npm-icon",
+		"color": "#C83939",
+		"description": "O gerenciador de pacotes do Node.js."
+	},
+	{
+		"title": "Notesnook",
+		"icon": "/assets/icons/sprite.svg#notesnook-icon",
+		"color": "var(--primary-text-color)",
+		"description": "Um serviço de anotações com criptografia de ponta-a-ponta. Útil para não esquecer dos objetivos e relembrar de algo."
+	}
+]

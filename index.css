@@ -215,7 +215,7 @@ article h2 {
 	transition: transform 0.3s ease;
 }
 
-#tool-container .item .content-box {
+#tool-container .item .content-container {
 	padding: 10px;
 	width: 100%;
 	display: flex;

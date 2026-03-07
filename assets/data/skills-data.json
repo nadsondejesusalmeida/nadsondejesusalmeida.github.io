@@ -1,0 +1,20 @@
+[
+	{
+		"title": "HTML",
+		"icon": "/assets/icons/sprite.svg#html-icon",
+		"color": "#E44D26",
+		"porcent": "80%"
+	},
+	{
+		"title": "CSS",
+		"icon": "/assets/icons/sprite.svg#css-icon",
+		"color": "#264DE4",
+		"porcent": "60%"
+	},
+	{
+		"title": "JavaScript",
+		"icon": "/assets/icons/sprite.svg#javascript-icon",
+		"color": "#F7DF1E",
+		"porcent": "50%"
+	}
+]

@@ -1,4 +1,8 @@
-import { renderProjectCards } from '/assets/scripts/ui/index.js';
+import {
+	renderProjectCards,
+	renderSkillCards,
+	renderToolCards
+} from '/assets/scripts/ui/index.js';
 
 const navLinks = document.querySelectorAll('#navigation-bar ul li a.link');
 
@@ -19,4 +23,6 @@ navLinks.forEach(link => {
 	});
 });
 
+renderSkillCards();
 renderProjectCards();
+renderToolCards();
