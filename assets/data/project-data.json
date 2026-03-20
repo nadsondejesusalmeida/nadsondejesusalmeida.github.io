@@ -204,5 +204,28 @@
 				"type": "image/jpeg"
 			}
 		}
+	},
+	
+	{
+		"title": "Lista de Contatos",
+		"href": "/lista-de-contatos/",
+		"period": "2026",
+		"description": "Exibe uma lista de contatos de usuários, que contém o nome e o e-mail. Você pode criar, editar e excluir contatos, além de pesquisar por um específico.",
+		"learnMore": "Este projeto tem como o objetivo de dominar CRUD (Create, Read, Update, Delete) de acordo com os dados fornecidos e aprender a buscar API e exibir as informações para o usuário final com um visual bonito e agradável.",
+		"color": "#006C00",
+		"images": {
+			"avif": {
+				"src": "/assets/images/avif/lista-de-contatos.avif",
+				"type": "image/avif"
+			},
+			"webp": {
+				"src": "/assets/images/webp/lista-de-contatos.webp",
+				"type": "image/webp"
+			},
+			"jpg": {
+				"src": "/assets/images/jpg/lista-de-contatos.jpg",
+				"type": "image/jpeg"
+			}
+		}
 	}
 ]
