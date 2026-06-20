@@ -40,11 +40,5 @@
 		"icon": "/assets/icons/sprite.svg#npm-icon",
 		"color": "#C83939",
 		"description": "O gerenciador de pacotes do Node.js."
-	},
-	{
-		"title": "Notesnook",
-		"icon": "/assets/icons/sprite.svg#notesnook-icon",
-		"color": "var(--primary-text-color)",
-		"description": "Um serviço de anotações com criptografia de ponta-a-ponta. Útil para não esquecer dos objetivos e relembrar de algo."
 	}
 ]

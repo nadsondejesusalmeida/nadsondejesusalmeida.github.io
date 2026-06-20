@@ -11,47 +11,21 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 </div>
 
 ## Linguagens &amp; Frameworks
-<div>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#html-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#css-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#javascript-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#nodejs-icon" />
-	</svg>
+<div style="display: flex;">
+	<img src="assets/icons/png/html.png" width="50" />
+	<img src="assets/icons/png/css.png" width="50" />
+	<img src="assets/icons/png/js.png" width="50" />
+	<img src="assets/icons/png/node-js.png" width="50" />
 </div>
 
 ## Ferramentas que eu utilizo diariamente
-<div>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#android-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#acode-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#heliboard-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#firefox-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#termux-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#git-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#npm-icon" />
-	</svg>
-	<svg width="50" height="50">
-		<use xlink:href="/assets/icons/sprite.svg#notesnook-icon" />
-	</svg>
+<div style="display: flex;">
+	<img src="assets/icons/png/android.png" width="50" />
+	<img src="assets/icons/png/acode.png" width="50" />
+	<img src="assets/icons/png/heliboard.png" width="50" />
+	<img src="assets/icons/png/firefox.png" width="50" />
+	<img src="assets/icons/png/termux.png" width="50" />
+	<img src="assets/icons/png/npm.png" width="50" />
 </div>
 
 ## Outros repositórios
