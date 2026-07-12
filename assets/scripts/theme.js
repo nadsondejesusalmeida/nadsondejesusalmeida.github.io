@@ -11,12 +11,12 @@ const themeSystem = localStorage.getItem('themeSystem') || getThemeMode();
 const setThemeSystem = (theme) => {
 	const lightThemeIcon = `
 		<svg class="icon filled sunny">
-			<use xlink:href="/assets/icons/sprite.svg#sunny-icon-filled" />
+			<use xlink:href="https://nadsondejesusalmeida.github.io/assets/icons/sprite.svg#sunny-icon-filled" />
 		</svg>
 	`;
 	const darkThemeIcon = `
 		<svg class="icon filled bedtime">
-			<use xlink:href="/assets/icons/sprite.svg#bedtime-icon-filled" />
+			<use xlink:href="https://nadsondejesusalmeida.github.io/assets/icons/sprite.svg#bedtime-icon-filled" />
 		</svg>
 	`;
 	
