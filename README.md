@@ -22,9 +22,8 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 <div style="display: flex;">
 	<img src="assets/icons/png/android.png" width="50" />
 	<img src="assets/icons/png/acode.png" width="50" />
-	<img src="assets/icons/png/heliboard.png" width="50" />
 	<img src="assets/icons/png/firefox.png" width="50" />
-	<img src="assets/icons/png/termux.png" width="50" />
+	<img src="assets/icons/png/git.png" width="50" />
 	<img src="assets/icons/png/npm.png" width="50" />
 </div>
 
