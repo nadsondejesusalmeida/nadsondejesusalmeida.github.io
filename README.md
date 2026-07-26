@@ -24,7 +24,6 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 	<img src="assets/icons/png/acode.png" width="50" />
 	<img src="assets/icons/png/firefox.png" width="50" />
 	<img src="assets/icons/png/git.png" width="50" />
-	<img src="assets/icons/png/npm.png" width="50" />
 </div>
 
 ## Outros repositórios

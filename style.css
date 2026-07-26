@@ -4,10 +4,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: var(--primary-font-family);
 }
 
 body {
-	font-family: var(--primary-font-family);
 	width: 100vw;
 	min-height: 100dvh;
 	background-color: var(--secondary-background-color);

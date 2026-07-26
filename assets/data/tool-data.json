@@ -2,31 +2,21 @@
 	{
 		"title": "Android",
 		"icon": "/assets/icons/svg/android.svg",
-		"color": "#3DDB84",
-		"description": "O sistema operacional (OS) mais famoso dos smartphones. Uso um celular deste tipo para programar."
+		"color": "#3DDB84"
 	},
 	{
 		"title": "Acode",
 		"icon": "/assets/icons/svg/acode.svg",
-		"color": "#3399FE",
-		"description": "Um IDE mobile de código-aberto que uso para codificar e que também possui um terminal nativo."
+		"color": "#3399FE"
 	},
 	{
 		"title": "Firefox",
 		"icon": "/assets/icons/svg/firefox.svg",
-		"color": "#C139EC",
-		"description": "Um navegador que eu utilizo para conseguir depurar e ter extensões pelo celular."
+		"color": "#C139EC"
 	},
 	{
 		"title": "Git",
 		"icon": "/assets/icons/svg/git.svg",
-		"color": "#ED513A",
-		"description": "O sistema de controle de versão de código-aberto mais famoso de todos. Uso para gerenciar os repositórios locais e remotos."
-	},
-	{
-		"title": "NPM",
-		"icon": "/assets/icons/svg/npm.svg",
-		"color": "#C83939",
-		"description": "O gerenciador de pacotes do Node.js."
+		"color": "#ED513A"
 	}
 ]

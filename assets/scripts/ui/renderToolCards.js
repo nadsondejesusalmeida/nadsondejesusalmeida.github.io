@@ -19,35 +19,23 @@ export const renderToolCards = async () => {
 		listOfTools.forEach(({
 			title,
 			icon,
-			color,
-			description
+			color
 		}) => {
-			const toolElement = document.createElement('details');
+			const toolElement = document.createElement('div');
 			toolElement.classList.add('item');
 			toolElement.setAttribute('style', `--main-color: ${color};`);
 			
-			const summaryElement = document.createElement('summary');
-			
-			const contentContainer = document.createElement('div');
-			contentContainer.classList.add('content-container');
+			const summaryElement = document.createElement('div');
+			summaryElement.classList.add('title');
 			
 			summaryElement.innerHTML = `
-				<div class="title">
-					<svg class="icon ${title.toLowerCase()}">
-						<use xlink:href="${icon}" />
-					</svg>
-					<span class="text">${title}</span>
-				</div>
-				<div class="triangle"></div>
-			`;
-			
-			contentContainer.innerHTML = `
-				<p class="content">${description}</p>
+				<svg class="icon ${title.toLowerCase()}">
+					<use xlink:href="${icon}" />
+				</svg>
+				<span class="text">${title}</span>
 			`;
 			
 			toolElement.appendChild(summaryElement);
-			toolElement.appendChild(contentContainer);
-			
 			toolContainer.appendChild(toolElement);
 		});
 	} catch (error) {
