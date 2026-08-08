@@ -17,7 +17,7 @@ body {
 	line-height: 1.5;
 	background-color: var(--secondary-background-color);
 	color: var(--primary-text-color);
-	overflow-wrap: brrak-word;
+	overflow-wrap: break-word;
 	transition: var(--color-transition);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
