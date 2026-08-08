@@ -26,7 +26,7 @@ export const renderSkillCards = async () => {
 			skillInformationElement.innerHTML = `
 				<span class="skill-name">
 					<svg class="icon ${title.toLowerCase()}">
-						<use xlink:href="${icon}" />
+						<use href="${icon}" />
 					</svg>
 					<span class="text">${title}</span>
 				</span>

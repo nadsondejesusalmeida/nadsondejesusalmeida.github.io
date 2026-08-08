@@ -1,4 +1,6 @@
 :root {
+	color-scheme: light dark;
+	
 	/* Cor de texto */
 	--primary-text-color: #000000;
 	--secondary-text-color: #504647;
@@ -55,7 +57,9 @@
 	--android-scenario-color: #063D1E;
 }
 
-[data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
+html[data-theme="dark"] { /* Alteraçôes ao mudar para o modo escuro */
+	color-scheme: dark;
+	
 	/* Cor de texto */
 	--primary-text-color: #FFFFFF;
 	--secondary-text-color: #D3C3C4;

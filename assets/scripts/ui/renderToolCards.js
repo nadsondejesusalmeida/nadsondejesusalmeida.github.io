@@ -30,7 +30,7 @@ export const renderToolCards = async () => {
 			
 			summaryElement.innerHTML = `
 				<svg class="icon ${title.toLowerCase()}">
-					<use xlink:href="${icon}" />
+					<use href="${icon}" />
 				</svg>
 				<span class="text">${title}</span>
 			`;

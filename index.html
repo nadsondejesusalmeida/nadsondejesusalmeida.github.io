@@ -58,7 +58,8 @@
 	<link rel="stylesheet" href="/assets/styles/root.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="/style.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="index.css" type="text/css" media="all" />
-	
+
+	<!-- Scripts -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
@@ -75,15 +76,38 @@
 			]
 		}
 	</script>
+	<script src="index.js" type="module" defer></script>
+	<script src="/assets/scripts/theme.js" defer></script>
 	<script src="https://kit.fontawesome.com/44f126d628.js" crossorigin="anonymous" async></script>
 </head>
 <body>
 	<header>
 		<nav id="navigation-bar">
 			<ul>
-				<li><a href="#skills" class="link"><i class="fa-solid fa-brain icon"></i></a></li>
-				<li><a href="#tools" class="link"><i class="fa-solid fa-wrench icon"></i></a></li>
-				<li><a href="#projects" class="link"><i class="fa-solid fa-trowel-bricks icon"></i></a></li>
+				<li>
+					<a href="#skills" class="link">
+						<svg class="icon">
+							<use href="/assets/icons/sprite.svg#brain-icon-filled" />
+						</svg>
+					</a>
+				</li>
+				
+				<li>
+					<a href="#tools" class="link">
+						<svg class="icon">
+							<use href="/assets/icons/sprite.svg#wrench-icon-filled" />
+						</svg>
+					</a>
+				</li>
+				
+				<li>
+					<a href="#projects" class="link">
+						<svg class="icon">
+							<use href="/assets/icons/sprite.svg#trowel-bricks-icon-filled" />
+						</svg>
+					</a>
+				</li>
+				
 				<li><a id="theme-color-button"></a></li>
 			</ul>
 		</nav>
@@ -92,7 +116,7 @@
 	<main>
 		<section id="record">
 			<svg width="200" class="photo">
-				<use xlink:href="/assets/icons/svg/website.svg" />
+				<use href="/assets/icons/svg/website.svg" />
 			</svg>
 			<h1>Nadson de Jesus Almeida</h1>
 			<p id="occupation">Programador Front-end</p>
@@ -104,17 +128,32 @@
 		</section>
 		<section id="details">
 			<article id="skills">
-				<h2><i class="fa-solid fa-brain icon"></i> Habilidades</h2>
+				<h2>
+					<svg class="icon">
+						<use href="/assets/icons/sprite.svg#brain-icon-filled" />
+					</svg>
+					Habilidades
+				</h2>
 				<div id="skill-container"></div>
 			</article>
 			
 			<article id="tools">
-				<h2><i class="fa-solid fa-wrench icon"></i> Ferramentas</h2>
+				<h2>
+					<svg class="icon">
+						<use href="/assets/icons/sprite.svg#wrench-icon-filled" />
+					</svg>
+					Ferramentas
+				</h2>
 				<div id="tool-container"></div>
 			</article>
 			
 			<article id="projects">
-				<h2><i class="fa-solid fa-trowel-bricks icon"></i> Projetos</h2>
+				<h2>
+					<svg class="icon">
+						<use href="/assets/icons/sprite.svg#trowel-bricks-icon-filled" />
+					</svg>
+					Projetos
+				</h2>
 				<div id="project-container"></div>
 			</article> <!-- article#projects -->
 		</section>
@@ -123,8 +162,5 @@
 	<footer>
 		<p>&copy; 2026 Nadson de Jesus Almeida</p>
 	</footer>
-	
-	<script src="index.js" type="module"></script>
-	<script src="/assets/scripts/theme.js"></script>
 </body>
 </html>

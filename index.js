@@ -20,8 +20,7 @@ navLinks.forEach(link => {
 			const headerHeight = document.querySelector('header').offsetHeight;
 			const targetPosition = target.offsetTop - headerHeight - 20;
 			window.scrollTo({
-				top: targetPosition,
-				behavior: 'smooth'
+				top: targetPosition
 			});
 		}
 	});

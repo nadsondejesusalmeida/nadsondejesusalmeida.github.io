@@ -7,12 +7,20 @@
 	font-family: var(--primary-font-family);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	width: 100vw;
 	min-height: 100dvh;
+	line-height: 1.5;
 	background-color: var(--secondary-background-color);
 	color: var(--primary-text-color);
+	overflow-wrap: brrak-word;
 	transition: var(--color-transition);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Controle deslizante */
@@ -47,6 +55,13 @@ input[type="range"] {
 	height: 5px;
 	background-image: linear-gradient(to right, var(--active-track-color) 0%, var(--inactive-track-color) 0%);
 	border-radius: 15px;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  pointer-events: none;
 }
 
 /* Fotos e ícones */
@@ -110,4 +125,17 @@ input[type="range"] {
 
 .toast.error {
 	background-color: var(--error-background-color);
+}
+
+/* Leitores de tela */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }

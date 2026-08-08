@@ -29,7 +29,7 @@ header ul li {
 
 header nav a {
 	padding: 12px 15px;
-	witdh: 50px;
+	width: 50px;
 	height: 100%;
 	text-decoration: none;
 	display: flex;
@@ -128,7 +128,15 @@ article {
 
 article h2 {
 	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 	color: var(--primary-accent-color);
+}
+
+article h2 .icon {
+	width: 35px;
+	height: 35px;
 }
 
 /* Habilidades */
