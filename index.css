@@ -118,6 +118,11 @@ main {
 	color: var(--primary-accent-color);
 }
 
+#social a .icon {
+	width: 30px;
+	height: 30px;
+}
+
 article {
 	margin-bottom: 20px;
 	padding: 20px;
