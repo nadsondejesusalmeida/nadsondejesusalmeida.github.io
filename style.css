@@ -23,6 +23,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+img, picture, video, canvas {
+	max-width: 100%;
+	display: block;
+}
+
 /* Controle deslizante */
 input[type="range"],
 input[type="range"]::-webkit-slider-thumb {
@@ -138,4 +143,20 @@ input[type="range"] {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/* Melhora o foco de acessibilidade para navegação via teclado (Tab) */
+:focus-visible {
+  outline: 3px solid var(--primary-accent-color);
+  outline-offset: 2px;
+}
+
+/* Remove animações para usuários que ativaram "reduzir movimento" no sistema */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
