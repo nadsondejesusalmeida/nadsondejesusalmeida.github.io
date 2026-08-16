@@ -116,7 +116,7 @@ input[type="range"] {
 .toast {
 	padding: 12px 24px;
 	font-size: 0.9rem;
-	background-color: #333;
+	background-color: var(--secondary-background-color);
 	color: var(--primary-text-color);
 	border-radius: 8px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
