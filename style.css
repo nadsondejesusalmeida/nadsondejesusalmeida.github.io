@@ -63,14 +63,15 @@ input[type="range"] {
 }
 
 .icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  pointer-events: none;
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+	pointer-events: none;
+	user-select: none;
 }
 
-/* Fotos e ícones */
-.photo, .icon {
+/* Fotos */
+.photo {
 	user-select: none;
 }
 
@@ -140,7 +141,7 @@ input[type="range"] {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
 }
@@ -149,6 +150,12 @@ input[type="range"] {
 :focus-visible {
   outline: 3px solid var(--primary-accent-color);
   outline-offset: 2px;
+}
+
+/* Seleção de texto */
+::selection {
+	background-color: var(--primary-accent-color);
+	color: var(--primary-background-color);
 }
 
 /* Remove animações para usuários que ativaram "reduzir movimento" no sistema */
