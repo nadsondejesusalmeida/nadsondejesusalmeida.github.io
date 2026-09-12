@@ -75,6 +75,27 @@ input[type="range"] {
 	user-select: none;
 }
 
+/* Estilo padrão para o botão de tema claro e escuro */
+#theme-color-button.default {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-text-color);
+	color: var(--primary-background-color);
+	border-radius: 50%;
+}
+
+#theme-color-button.default .icon {
+	width: 20px;
+	height: 20px;
+}
+
 /* Atualização */
 .update-banner {
 	padding: 15px;
