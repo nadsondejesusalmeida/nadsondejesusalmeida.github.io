@@ -33,7 +33,6 @@ export const renderProjectCards = async () => {
 			
 			const linkElement = document.createElement('a');
 			linkElement.href = href;
-			linkElement.target = '_blank';
 			
 			const imageElement = document.createElement('picture');
 			imageElement.innerHTML = `

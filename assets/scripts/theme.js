@@ -1,4 +1,15 @@
-const themeColorButton = document.getElementById('theme-color-button');
+const getThemeColorButton = () => {
+	let themeColorButton = document.getElementById('theme-color-button');
+
+	if (!themeColorButton) {
+		themeColorButton = document.createElement('button');
+		themeColorButton.id = 'theme-color-button';
+		themeColorButton.classList.add('default');
+		document.body.appendChild(themeColorButton);
+	}
+
+	return themeColorButton;
+}
 
 const getThemeMode = () => {
 	const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -23,9 +34,9 @@ const setThemeSystem = (theme) => {
 	document.documentElement.setAttribute('data-theme', theme);
 	
 	if (theme === 'light') {
-		themeColorButton.innerHTML = lightThemeIcon;
+		getThemeColorButton().innerHTML = lightThemeIcon;
 	} else {
-		themeColorButton.innerHTML = darkThemeIcon;
+		getThemeColorButton().innerHTML = darkThemeIcon;
 	}
 }
 
@@ -44,7 +55,7 @@ window.matchMedia('(prefers-color-scheme: dark)')
 		}
 });
 
-themeColorButton.addEventListener('click', () => {
+getThemeColorButton().addEventListener('click', () => {
 	const oldTheme = localStorage.getItem('themeSystem') || getThemeMode();
 	const newTheme = oldTheme === 'light' ? 'dark' : 'light';
 	
