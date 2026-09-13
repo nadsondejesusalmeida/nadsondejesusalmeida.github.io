@@ -1,4 +1,5 @@
 // Exportação da Interface do Usuário (UI)
+export * from './ui/applyTheme.js';
 export * from './ui/renderContactCards.js';
 export * from './ui/renderProjectCards.js';
 export * from './ui/renderSkillCards.js';
