@@ -12,3 +12,5 @@ export * from './utils/colors/getRangeGradient.js';
 export * from './utils/colors/rgbaSettings.js';
 export * from './utils/colors/toRgbaString.js';
 export * from './utils/colors/rangeColorSettings.js';
+
+export * from './utils/date/getDetailedDuration.js';
