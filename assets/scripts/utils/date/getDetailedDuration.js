@@ -1,5 +1,5 @@
 /**
- * Retorna um objeto com a duração detalhada entre duas datas: anos, meses, dias, segundos e milissegundos.
+ * Retorna um objeto com a duração detalhada entre duas datas: anos, meses, dias, horas, minutos, segundos e milissegundos.
  * @param {Date|string|number} birthDate - A data de início (ex: aniversário).
  * @param {Date|string|number} [compareDate=new Date()] - A data de fim (o padrão é agora).
  */
@@ -15,6 +15,8 @@ export const getDetailedDuration = (birthDate, compareDate = new Date()) => {
 	let years = end.getFullYear() - start.getFullYear();
 	let months = end.getMonth() - start.getMonth();
 	let days = end.getDate() - start.getDate();
+	let hours = end.getHours() - start.getHours();
+	let minutes = end.getMinutes() - start.getMinutes();
 	let seconds = end.getSeconds() - start.getSeconds();
 	let milliseconds = end.getMilliseconds() - start.getMilliseconds();
 
@@ -38,6 +40,8 @@ export const getDetailedDuration = (birthDate, compareDate = new Date()) => {
 		years,
 		months,
 		days,
+		hours,
+		minutes,
 		seconds,
 		milliseconds,
 	};
