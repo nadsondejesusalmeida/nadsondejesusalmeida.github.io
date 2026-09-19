@@ -6,7 +6,7 @@
  * @returns {Object} Objeto com diferença em anos, meses, dias, horas, minutos, segundos e milissegundos.
  */
 
-const getDetailedDuration = (startData, endData = new Date()) => {
+export const getDetailedDuration = (startData, endData = new Date()) => {
 	const start = new Date(startData);
 	const end = new Date(endData);
 
