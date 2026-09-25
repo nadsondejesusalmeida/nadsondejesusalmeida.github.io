@@ -38,7 +38,7 @@ export const renderProjectCards = async () => {
 			imageElement.innerHTML = `
 				<source srcset="${avif.src} type="${avif.type}" />
 				<source srcset="${webp.src} type="${webp.type}" />
-				<img src="${jpg.src}" alt="Imagem do ${title}" width="450" class="photo" />
+				<img src="${jpg.src}" alt="Imagem de ${title}" width="450" class="photo" />
 			`;
 			
 			const projectInformationElement = document.createElement('div');
