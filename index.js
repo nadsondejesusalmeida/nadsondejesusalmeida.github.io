@@ -15,7 +15,7 @@ navLinks.forEach(link => {
 		event.preventDefault();
 		const targetLink = event.currentTarget;
 		const target = document.querySelector(targetLink.getAttribute('href'));
-		
+
 		if (target) {
 			const headerHeight = document.querySelector('header').offsetHeight;
 			const targetPosition = target.offsetTop - headerHeight - 20;

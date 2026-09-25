@@ -227,5 +227,27 @@
 				"type": "image/jpeg"
 			}
 		}
+	},
+	{
+		"title": "Calculadora de Idade",
+		"href": "/calculadora-de-idade",
+		"period": "2026",
+		"description": "Informa a quantidade exata de anos, meses, dias, horas, minutos, segundos e milissegundos de idade tem de acordo com a data e hora selecionada.",
+		"learnMore": "Este projeto tem como objetivo dominar a manipulação do uso dos dados de tempo, especialmente sem interferência do fuso horário local ao usar UTC.",
+		"color": "#A000FF",
+		"images": {
+			"avif": {
+				"src": "/assets/images/avif/calculadora-de-idade.avif",
+				"type": "image/avif"
+			},
+			"webp": {
+				"src": "/assets/images/webp/calculadora-de-idade.webp",
+				"type": "image/webp"
+			},
+			"jpg": {
+				"src": "/assets/images/jpg/calculadora-de-idade.jpg",
+				"type": "image/jpeg"
+			}
+		}
 	}
 ]
