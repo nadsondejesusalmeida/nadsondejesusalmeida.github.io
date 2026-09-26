@@ -7,8 +7,8 @@
  */
 
 export const getDetailedDuration = (startData, endData = new Date()) => {
-	const start = new Date(startData);
-	const end = new Date(endData);
+	let start = new Date(startData);
+	let end = new Date(endData);
 
 	if (isNaN(start) || isNaN(end)) {
 		throw new Error('Formatação de data inválido');
