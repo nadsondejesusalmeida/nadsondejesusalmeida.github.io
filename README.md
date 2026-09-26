@@ -36,3 +36,4 @@ Este repositório contém o meu **site pessoal**. Criado e desenvolvido para mos
 - [Projeto Apple Watch](https://github.com/nadsondejesusalmeida/projeto-apple-watch)
 - [Projeto Cardápio Digital](https://github.com/nadsondejesusalmeida/projeto-cardapio-digital)
 - [Lista de Tarefas](https://github.com/nadsondejesusalmeida/lista-de-tarefas)
+- [Calculadora de Idade](https://nadsondejesusalmeida.github.io/calculadora-de-idade)
